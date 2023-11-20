@@ -10,8 +10,8 @@
  * @return {number}number of words on a sentence
  */
 
-const getTotalWordsFromString = function (inputString) {
-  const words = inputString.split(/\s+/);
+const getTotalWordsFromString = function (sentence) {
+  const words = sentence.split(/\s+/);
   let filteredWords = words.filter((word) => word.length > 0);
   return filteredWords.length;
 };
