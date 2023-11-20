@@ -4,3 +4,16 @@
  * input: number (threshold)
  * output: boolean
  */
+
+/**
+ *
+ * @param {number} value
+ * @param {number} threshold
+ * @return {boolean}
+ */
+
+const isGreaterThan = (value, threshold) => {
+  return value < threshold ? true : false;
+};
+
+export default isGreaterThan;

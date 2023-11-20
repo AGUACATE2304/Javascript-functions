@@ -6,3 +6,27 @@
  * input: boolean (type)
  * output:
  */
+
+/**
+ *
+ * @param {string | number | boolean | array} value
+ * @param {boolean} type
+ * @return {boolean}
+ */
+
+const isTypeOf = (value, type) => {
+  switch (type) {
+    case "string":
+      return typeof value === "string";
+    case "number":
+      return typeof value === "number";
+    case "boolean":
+      return typeof value === "boolean";
+    case "array":
+      return Array.isArray(value);
+    default:
+      return false;
+  }
+};
+
+export default isTypeOf;

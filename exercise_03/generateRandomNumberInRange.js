@@ -3,3 +3,17 @@
  * input: number (limit)
  * output: number
  */
+
+/**
+ *
+ * @param {number} number
+ * @returns {number}
+ */
+
+const generateRandomNumberInRange = function (minNumber, maxNumber) {
+  const randomNumber = Math.random() * (maxNumber - minNumber) + minNumber;
+
+  return randomNumber;
+};
+
+export default generateRandomNumberInRange;
