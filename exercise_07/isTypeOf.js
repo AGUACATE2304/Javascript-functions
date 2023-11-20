@@ -8,10 +8,9 @@
  */
 
 /**
- *
+ * Check type of value if it matches type received as argument
  * @param {string | number | boolean | array} value
  * @param {boolean} type
- * @return {boolean}
  */
 
 const isTypeOf = (value, type) => {

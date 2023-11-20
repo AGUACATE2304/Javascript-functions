@@ -5,8 +5,9 @@
  */
 
 /**
- *
- * @param {number} number
+ * Generates a random number depending on a limit
+ * @param {number} number Min limit to generate
+ * @param {number} number Max limit to generate
  * @returns {number}
  */
 

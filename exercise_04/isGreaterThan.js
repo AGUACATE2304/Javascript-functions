@@ -6,7 +6,7 @@
  */
 
 /**
- *
+ * Check if a number is greater than a given number
  * @param {number} value
  * @param {number} threshold
  * @return {boolean}

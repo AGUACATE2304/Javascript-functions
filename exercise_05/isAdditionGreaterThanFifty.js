@@ -7,8 +7,8 @@
 
 /**
  * Check if the sum is 50 or greater than 50
- * @param {number}
- * @param {number}
+ * @param {number} firstNumber The first number
+ * @param {number} secondNumber The second number
  * @return {boolean}
  */
 
