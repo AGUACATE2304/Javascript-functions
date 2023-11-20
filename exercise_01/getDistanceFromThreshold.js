@@ -13,13 +13,15 @@
  */
 const getDistanceFromThreshold = function (value, threshold) {
   if (value > threshold) {
-    value = value - threshold;
-    return value;
+    return (value = value - threshold);
   }
 
   if (threshold > value) {
-    threshold = threshold - value;
-    return threshold;
+    return (threshold = threshold - value);
+  }
+
+  if (value === threshold) {
+    return 0;
   }
 };
 
