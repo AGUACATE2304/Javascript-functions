@@ -15,7 +15,7 @@
 const isAdditionGreaterThanFifty = (firstNumber, secondNumber) => {
   const sum = firstNumber + secondNumber;
   if (sum < 50) return false;
-  if ((sum) >= 50) return true;
+  if (sum >= 50) return true;
 };
 
 export default isAdditionGreaterThanFifty;
