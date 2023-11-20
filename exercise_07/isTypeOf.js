@@ -9,8 +9,8 @@
 
 /**
  * Check type of value if it matches type received as argument
- * @param {string | number | boolean | array} value
- * @param {boolean} type
+ * @param {string | number | boolean | array} value given value to check typeOf
+ * @param {boolean} type type of value ( int | string | number | boolean)
  */
 
 const isTypeOf = (value, type) => {
