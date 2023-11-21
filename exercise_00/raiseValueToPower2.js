@@ -10,7 +10,7 @@
 
 /**
  * Raise one number to power of two
- * @param {number} base
+ * @param {number} base number to raise
  * @returns number
  */
 const raiseValueToPower2 = function (base) {
