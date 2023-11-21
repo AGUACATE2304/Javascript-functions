@@ -17,3 +17,17 @@
  * input: []
  * output: ""
  */
+
+/**
+ * Given a collection and transform it into string formated like ( arrayValue1 | arrayValue2 | ...)
+ * @param {array} collection Given collection to transform
+ * @returns {string}
+ */
+const transformCollectionToString = function (collection) {
+  if (Array.isArray(collection) && collection.length > 0) {
+    return collection.join(" | ");
+  }
+  return "";
+};
+
+export default transformCollectionToString;
