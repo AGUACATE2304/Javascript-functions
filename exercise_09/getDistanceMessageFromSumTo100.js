@@ -29,7 +29,7 @@ import generateRandomNumberInRange from "../exercise_03/generateRandomNumberInRa
  */
 const getDistanceMessageFromSumTo100 = function (value) {
   const resultSumNumber = Math.round(
-    value + generateRandomNumberInRange(0, 100)
+    value + generateRandomNumberInRange(0, 100),
   );
   const exceedFrom100 = resultSumNumber - 100;
   const leftTo100 = 100 - resultSumNumber;
