@@ -23,6 +23,7 @@
  * @param {array} collection Given collection to transform
  * @returns {string}
  */
+
 const transformCollectionToString = function (collection) {
   const collectionArray = Array.isArray(collection);
   if (collectionArray && collection.length > 0) {
