@@ -1,3 +1,6 @@
+import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
+import isGreaterThan from "../exercise_04/isGreaterThan.js";
+
 /**
  * Write JS function "formatStringByWordsLength" to check number of words contained in given string
     - if total number of words is greater then 5, then return uppercase string
@@ -16,8 +19,6 @@
  * CASE #2 * input: "This is short one."
  * output: "this is short one."
  */
-import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
-import isGreaterThan from "../exercise_04/isGreaterThan.js";
 
 /**
  *  Check if the given sentence is longer than the given number of words and change to lower case or upper case string
