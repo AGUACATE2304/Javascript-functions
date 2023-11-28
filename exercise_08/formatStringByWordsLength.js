@@ -25,7 +25,9 @@ import isGreaterThan from "../exercise_04/isGreaterThan.js";
  * @returns {string} Return the sentence in LowerCase or UpperCase
  */
 const formatStringByWordsLength = function (sentence) {
-  if (isGreaterThan(5, getTotalWordsFromString(sentence))) {
+  const words = getTotalWordsFromString(sentence);
+  const exceeds = isGreaterThan(words, 5);
+  if (exceeds) {
     return sentence.toUpperCase();
   }
 

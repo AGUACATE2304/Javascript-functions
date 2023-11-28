@@ -24,7 +24,8 @@
  * @returns {string}
  */
 const transformCollectionToString = function (collection) {
-  if (Array.isArray(collection) && collection.length > 0) {
+  const collectionArray = Array.isArray(collection);
+  if (collectionArray && collection.length > 0) {
     return collection.join(" | ");
   }
   return "";

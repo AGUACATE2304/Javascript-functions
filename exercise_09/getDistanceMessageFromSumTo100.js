@@ -21,18 +21,19 @@
  */
 
 import generateRandomNumberInRange from "../exercise_03/generateRandomNumberInRange.js";
-
+import isGreaterThan from "../exercise_04/isGreaterThan.js";
+import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js";
 /**
  * Generates a random number between 0 and 100 and sume it to given number
  * @param {number} value Given number to sum to random number in range from 0 - 100
  * @returns {string}
  */
 const getDistanceMessageFromSumTo100 = function (value) {
-  const resultSumNumber = Math.round(
-    value + generateRandomNumberInRange(0, 100),
-  );
-  const exceedFrom100 = resultSumNumber - 100;
-  const leftTo100 = 100 - resultSumNumber;
+  const randomNumber = generateRandomNumberInRange(0, 100);
+  const resultSumNumber = value + randomNumber;
+
+  const exceedFrom100 = getDistanceFromThreshold(resultSumNumber - 100);
+  const leftTo100 = getDistanceFromThreshold(100 - resultSumNumber);
 
   if (resultSumNumber > 100) {
     return (

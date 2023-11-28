@@ -1,7 +1,7 @@
 import formatStringByWordsLength from "./formatStringByWordsLength.js";
 
-const lowerCaseSentence = "EL ALAN ES GUAPO";
+const lowerCaseSentence = "ALAN IS SO HANDSOME";
 console.log(formatStringByWordsLength(lowerCaseSentence)); // To LowerCase  el alan es guapo
 
-const upperCaseSentence = "el alan es muy muy guapo";
+const upperCaseSentence = "alan is so so so handsome";
 console.log(formatStringByWordsLength(upperCaseSentence)); // To UpperCase  EL ALAN ES MUY MUY GUAPO
