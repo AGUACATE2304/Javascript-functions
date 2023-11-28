@@ -26,7 +26,7 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
 /**
  * Generates a random number between 0 and 100 and sume it to given number
  * @param {number} value Given number to sum to random number in range from 0 - 100
- * @returns {string}
+ * @returns {string} returns the number that exceeds or left from 100
  */
 const getDistanceMessageFromSumTo100 = function (value) {
   const randomNumber = generateRandomNumberInRange(0, 100);
