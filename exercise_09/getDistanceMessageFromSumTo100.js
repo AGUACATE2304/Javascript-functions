@@ -37,7 +37,7 @@ const getDistanceMessageFromSumTo100 = function (value) {
   const exceedFrom100 = getDistanceFromThreshold(resultSumNumber - 100);
   const leftTo100 = getDistanceFromThreshold(100 - resultSumNumber);
 
-  if (resultSumNumber > 100) {
+  if (isGreaterThan(resultSumNumber, 100)) {
     return (
       "Sum with value " +
       resultSumNumber +
