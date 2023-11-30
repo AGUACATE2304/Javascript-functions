@@ -24,6 +24,7 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
  * output: "Sum with value 70 isd left in 30 from number 100"
  */
 
+
 /**
  * Generates a random number between 0 and 100 and sume it to given number
  * @param {number} value Given number to sum to random number in range from 0 - 100
